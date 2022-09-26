@@ -1,6 +1,6 @@
 body {
     background: rgb(3, 43, 53);
-    font: normal 15pt Arial;
+    font: normal 15pt Arial; 
 }
 
 header {
@@ -15,12 +15,19 @@ section {
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363)
-    
+    box-shadow: 3px 3px 10px rgb(10, 5, 5) 
 }
 
 footer {
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+#div01 {
+    display: inline-block;
+}
+
+#número {
+    text-align: center;
 }
